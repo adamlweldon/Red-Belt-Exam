@@ -1,0 +1,122 @@
+body {
+	font-family: arial;
+	color: black;
+}
+
+#container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 22px;
+}
+
+.alert-warning {
+	color: red;
+}
+
+.border_top {
+	border: 2px solid black;
+	width: 350px;
+}
+
+.product_table {
+	border: 2px solid black;
+	width: auto;
+	margin-top: 10px;
+}
+
+#product_name {
+	width: 200px;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+
+#product_name:hover {
+	width: 200px;
+	margin-left: 30px;
+	border: 2px solid black;
+}
+
+#product_category {
+	width: 200px;
+	margin-left: 67px;
+	border: 1px solid black;
+}
+
+#product_category:hover {
+	width: 200px;
+	margin-left: 67px;
+	border: 2px solid black;
+	font-size: 14px;
+}
+
+textarea {
+	width: 340px;
+	height: 100px;
+	margin-left: 2px;
+	border: 1px solid black;
+}
+
+textarea:hover {
+	width: 340px;
+	height: 100px;
+	margin-left: 1px;
+	border: 2px solid black;
+}
+
+th {
+	padding: 3px 85px 3px 84px;
+	border: 2px solid black;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: lightgray;
+}
+
+.add_button {
+	background-color: white;
+	border: 2px solid blue;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100px;
+	margin-left: 247px;
+	border-radius: 5px;
+}
+
+.add_button:hover {
+	background-color: blue;
+	border: 2px solid blue;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100px;
+	margin-left: 247px;
+	border-radius: 5px;
+}
+
+.delete_button {
+	background-color: white;
+	border: 2px solid red;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.delete_button:hover {
+	background-color: red;
+	border: 2px solid red;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100px;
+	border-radius: 5px;
+}
